@@ -1,4 +1,3 @@
-import e from "express";
 import React, { useState } from "react";
 
 const Button = () => {
@@ -12,7 +11,6 @@ const Button = () => {
   return (
     <div>
       <h1>{number}</h1>
-      <input onChange={(text = addNumber(text))} />
       <button onClick={addNumber}>add</button>
     </div>
   );
