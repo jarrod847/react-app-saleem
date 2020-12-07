@@ -1,0 +1,16 @@
+.Navbar {
+  background-color: red;
+  display: flex;
+  border: black 1px solid;
+  align-items: baseline;
+}
+
+.Navbar h1 {
+  display: flex;
+  justify-content: flex-start;
+  width: 80%;
+}
+
+.Links {
+  width: 25%;
+}
