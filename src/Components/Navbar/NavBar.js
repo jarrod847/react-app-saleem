@@ -8,6 +8,7 @@ const NavBar = () => {
       <h1>Saleem's Place</h1>
       <div className="Links">
         <Link to="/home">Home</Link>
+        <Link to="/increment">adding</Link>
       </div>
     </div>
   );
